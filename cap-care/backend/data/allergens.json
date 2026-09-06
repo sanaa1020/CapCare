@@ -1,0 +1,14 @@
+{
+  "allergens": [
+    { "name": "milk", "aliases": ["dairy", "casein", "whey", "lactose", "milk powder", "buttermilk"] },
+    { "name": "egg", "aliases": ["albumin", "ovalbumin", "egg white", "egg yolk"] },
+    { "name": "peanut", "aliases": ["groundnut", "peanut oil", "peanut flour"] },
+    { "name": "tree nuts", "aliases": ["almond", "cashew", "walnut", "hazelnut", "pecan", "pistachio", "macadamia"] },
+    { "name": "soy", "aliases": ["soya", "soybean", "soy lecithin", "soy protein"] },
+    { "name": "wheat", "aliases": ["gluten", "wheat flour", "wheat starch"] },
+    { "name": "fish", "aliases": ["cod", "salmon", "tuna", "anchovy", "fish oil"] },
+    { "name": "shellfish", "aliases": ["shrimp", "crab", "lobster", "prawn", "crustacean"] },
+    { "name": "sesame", "aliases": ["tahini", "sesame oil", "sesame seed"] }
+  ],
+  "_note": "This is a starter dataset covering the most common allergens. It is NOT medically exhaustive -- add more entries here as needed. Each allergen has a canonical 'name' and a list of 'aliases' (other words/ingredients that mean the same thing)."
+}

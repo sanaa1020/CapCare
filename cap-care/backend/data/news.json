@@ -1,0 +1,36 @@
+{
+  "articles": [
+    {
+      "id": 1,
+      "category": "nutrition",
+      "title": "Reading Ingredient Labels: What Common Additives Actually Mean",
+      "summary": "A plain-language guide to decoding preservatives, emulsifiers, and sweeteners commonly found on packaged food labels."
+    },
+    {
+      "id": 2,
+      "category": "allergies",
+      "title": "Hidden Sources of Common Allergens in Processed Foods",
+      "summary": "Milk, soy, and egg derivatives often appear under unfamiliar names -- here's what to watch for when scanning ingredient lists."
+    },
+    {
+      "id": 3,
+      "category": "wellness",
+      "title": "Why Consistent Sleep Timing May Matter More Than Total Hours",
+      "summary": "Emerging wellness research suggests a regular sleep schedule can be as important as sleep duration for daily energy levels."
+    },
+    {
+      "id": 4,
+      "category": "medicine",
+      "title": "Understanding Over-the-Counter Medication Interactions",
+      "summary": "A general overview of why some common OTC medications shouldn't be combined, and the importance of checking with a pharmacist.",
+      "notes": "General awareness content, not medical guidance."
+    },
+    {
+      "id": 5,
+      "category": "health awareness",
+      "title": "Keeping a Personal Health Log: What to Track and Why",
+      "summary": "How structured self-tracking of food, symptoms, and activities can help you have more informed conversations with your doctor."
+    }
+  ],
+  "_note": "This is static curated content for the hackathon prototype. The news_service.py file is structured so this can later be swapped for a real news API without changing the route or response shape."
+}
